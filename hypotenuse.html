@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypotenuse</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class='container'>
+        <h1>FUN TRIANGLE</h1>
+    </div>
+    <div class="container1">
+        <h3>Enter the lengths of sides of right angle triangle :</h3>
+        <h3 id="formula">Length of Hypotenuse=sqrt(base<sup>2</sup>+height<sup>2</sup>)</h3>
+        <img src="images/triangle.jpg">
+        <div class="inputb">
+            <input id="inph1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="inph2" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+        </div>
+        <button class="angles-btn">SUBMIT</button>
+        <div class="result"></div>
+    </div>
+</body>
+<script type="text/javascript" src="hypotenuse.js"></script>
+
+</html>

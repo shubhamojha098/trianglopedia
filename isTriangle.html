@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isTriangle</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class='container'>
+        <h1>TRIANGLOPEDIA</h1>
+    </div>
+    <div class="container1">
+        <h3>Enter the angles in below input boxes and we will tell you if those angles make a Triangle Or Not </h3>
+        <div class="inputb">
+            <input id="inp1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="inp2" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="inp3" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+        </div>
+        <button class="angles-btn">SUBMIT</button>
+        <div class="result"></div>
+    </div>
+</body>
+<script type="text/javascript" src="istriangle.js"></script>
+
+</html>

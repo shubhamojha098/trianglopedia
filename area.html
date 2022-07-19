@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class='container'>
+        <h1>TRIANGLOPEDIA</h1>
+    </div>
+    <div class="container1">
+        <h3>Find Area of triangle when base and height is given</h3>
+        <h3 id="formula">Area of Triangle=1/2*base*height</h3>
+
+        <div class="inputb">
+            <input id="base1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="height1" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+        </div>
+        <button id="btn1" class="angles-btn">CALCULATE</button>
+        <div id="result1" class="result"></div>
+        <h3>Find Area of triangle when length of sides are given</h3>
+        <h3 id="formula">Area of Triangle=sqrt(s(s-a)*(s-b)*(s-c))<br> where s=(a+b+c)/2</h3>
+        <div class="inputb">
+            <input id="base2" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="base3" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+            <input id="base4" class="angle-input" type="number" min="0" oninput="validity.valid||(value='');">
+        </div>
+        <button id="btn2" class="angles-btn">CALCULATE</button>
+        <div id="result2" class="result"></div>
+
+    </div>
+</body>
+<script type="text/javascript" src="area.js"></script>
+
+</html>
